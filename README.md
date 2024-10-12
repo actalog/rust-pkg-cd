@@ -1,1 +1,3 @@
-# rust-lib-cd
+# Rust package CD
+
+Publish rust package

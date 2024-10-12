@@ -1,0 +1,12 @@
+name: Rust package CD
+
+inputs:
+  cargo-registry-token:
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - uses: actions-rust-lang/setup-rust-toolchain@v1
+    - run: cargo publish --token ${{ inputs.cargo-registry-token }}
+      shell: bash
