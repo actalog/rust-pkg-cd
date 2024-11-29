@@ -1,4 +1,4 @@
-name: Rust package CD
+name: '@actalog/rust-pkg-cd'
 
 inputs:
   cargo-registry-token:
